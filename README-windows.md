@@ -6,8 +6,7 @@ Aby zaoszczędzić wspólny czas, proszę przygotuj środowisko do pierwszych za
 
 ## 🧰 1. Przygotowanie IDE
 
-Podczas szkolenia będziemy korzystać z **Visual Studio Code (VSC)**,  
-ale możesz używać dowolnego innego edytora.
+Podczas szkolenia będziemy korzystać z **Visual Studio Code (VSC)**, ale możesz używać dowolnego innego edytora.
 
 ➡️ [Pobierz i zainstaluj Visual Studio Code](https://code.visualstudio.com/)
 
@@ -89,7 +88,6 @@ node -v
 Przykładowy wynik:
 ```
 24.10.0
-24.8.0
 ```
 
 ---
@@ -106,23 +104,7 @@ Przykładowy wynik:
 
 ## 🌿 4. Przełącz się na swoją własną gałąź w kodzie
 
-1. Otwórz terminal   
-2. Sklonuj repozytorium:
-```sh
-git clone -b https://github.com/howlingtesters/Nowicjusz-15.10.2025.git
-```
-3. Wpisz komendę:
-```sh
-git checkout -b 'yourOwnBranchName'
-```
-4. Lub w lewym panelu wybierz zakładkę source control (`command + Shift + G`)
-5. Kliknij na gałąź main w lewym dolnym rogu
-6. Wpisz nazwę gałęzi w menu rozwijalnym na górze ekranu
-7. Kliknij **+ Create new branch...**
-
 ---
-
-## 🧪 5. Instalacja Playwright
 
 ### Wybierz miejsce pracy
 
@@ -132,6 +114,29 @@ Utwórz lub wybierz katalog, w którym będziesz pracować:
 mkdir /dowolne/miejsce/wygodne/dla/ciebie
 cd /dowolne/miejsce/wygodne/dla/ciebie
 ```
+
+---
+
+### Pobierz repozytorium i przejdź na swoją własną gałąź
+
+1. Otwórz terminal   
+2. Sklonuj repozytorium:
+```sh
+git clone -b https://github.com/howlingtesters/Nowicjusz-15.10.2025.git
+```
+3. Wpisz komendę:
+```sh
+git checkout -b 'yourOwnBranchName'
+```
+4. Lub w lewym panelu wybierz zakładkę source control (`Ctrl + Shift + G`)
+5. Kliknij na gałąź main w lewym dolnym rogu
+6. Wpisz nazwę gałęzi w menu rozwijalnym na górze ekranu
+7. Kliknij **+ Create new branch...**
+8. Upewnij się, że nazwa gałęzi w lewym dolnym rogu odpowiada nowej nazwie
+
+---
+
+## 🧪 5. Instalacja Playwright
 
 ---
 
