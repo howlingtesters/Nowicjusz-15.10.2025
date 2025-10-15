@@ -138,6 +138,7 @@ cd /dowolne/miejsce/wygodne/dla/ciebie
 ### Instalacja Playwright
 
 Podczas szkolenia będę Was często zachęcał do korzystania z dokumentacji **Playwright** (jest naprawdę dobrze napisana!):
+
 👉 [https://playwright.dev/docs/intro](https://playwright.dev/docs/intro)
 
 > ⚠️ Na tym etapie możesz wybrać **domyślne opcje instalacji** zgodnie z poleceniami na stronie.  
