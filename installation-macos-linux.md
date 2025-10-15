@@ -1,4 +1,4 @@
-# Przygotowanie do szkolenia
+# Przygotowanie do szkolenia - MacOS/Linux
 
 Aby zaoszczędzić wspólny czas, proszę przygotuj środowisko do pierwszych zajęć!  
 
