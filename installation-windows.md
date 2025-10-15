@@ -107,7 +107,11 @@ Przykładowy wynik:
 ## 🌿 4. Przełącz się na swoją własną gałąź w kodzie
 
 1. Otwórz terminal   
-2. Wpisz komendę 'git checkout -b 'yourOwnBranchName'
+2. Wpisz komendę **git checkout -b 'yourOwnBranchName'**
+3. Lub w lewym panelu wybierz zakładkę source control (`Ctrl + Shift + G`)
+4. Kliknij na gałąź main w lewym dolnym rogu
+5. Wpisz nazwę gałęzi w menu rozwijalnym na górze ekranu
+6. Kliknij **+ Create new branch...**
 
 ---
 
