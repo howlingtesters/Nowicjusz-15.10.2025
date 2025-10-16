@@ -12,7 +12,9 @@ Podczas szkolenia będziemy korzystać z **Visual Studio Code (VSC)**, ale może
 
 ---
 
-## 💻 2. Weryfikacja wersji Node.js
+## 🌿 4. Przełącz się na swoją własną gałąź w kodzie
+
+---
 
 ### Otwieranie terminala w Visual Studio Code
 
@@ -26,6 +28,34 @@ Podczas szkolenia będziemy korzystać z **Visual Studio Code (VSC)**, ale może
 > - **Git Bash** - wymaga instalacji [git](https://git-scm.com/downloads/win)
 
 Na komputerach firmowych niektóre terminale mogą mieć ograniczone uprawnienia.
+
+---
+
+### Pobierz repozytorium i przejdź na swoją własną gałąź
+
+Jeśli nie masz zainstalowanego git for Windows: [git](https://git-scm.com/downloads/win)
+
+1. Otwórz terminal   
+2. Sklonuj repozytorium:
+```sh
+cd wygodny/folder/dla/ciebie
+git clone https://github.com/howlingtesters/Nowicjusz-15.10.2025.git
+cd Nowicjusz-15.10.2025
+```
+3. Otwórz Visual Studio Code we wskazanym folderze 
+4. W terminalu w folderze Nowicjusz-15.10.2025 wpisz komendę:
+```sh
+git checkout -b 'yourOwnBranchName'
+```
+5. Lub w lewym panelu wybierz zakładkę source control (`Ctrl + Shift + G`)
+6. Kliknij na gałąź main w lewym dolnym rogu
+7. Wpisz nazwę gałęzi w menu rozwijalnym na górze ekranu
+8. Kliknij **+ Create new branch...**
+9. Upewnij się, że nazwa gałęzi w lewym dolnym rogu odpowiada nowej nazwie
+
+---
+
+## 💻 3. Weryfikacja wersji Node.js
 
 ---
 
@@ -94,52 +124,13 @@ Przykładowy wynik:
 
 ---
 
-## 🔌 3. Instalacja wtyczek w Visual Studio Code
+## 🔌 4. Instalacja wtyczek w Visual Studio Code
 
 1. Otwórz **Visual Studio Code**  
 2. Przejdź do zakładki **Extensions** (`Ctrl + Shift + X`)  
 3. Wyszukaj i zainstaluj:
    - [**Playwright Test for VS Code (Microsoft)**](https://marketplace.visualstudio.com/items?itemName=ms-playwright.playwright)
    - [**ESLint**](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-
----
-
-## 🌿 4. Przełącz się na swoją własną gałąź w kodzie
-
----
-
-### Wybierz miejsce pracy
-
-Utwórz lub wybierz katalog, w którym będziesz pracować:
-
-```sh
-mkdir /dowolne/miejsce/wygodne/dla/ciebie
-cd /dowolne/miejsce/wygodne/dla/ciebie
-```
-
----
-
-### Pobierz repozytorium i przejdź na swoją własną gałąź
-
-Jeśli nie masz zainstalowanego git for Windows: [git](https://git-scm.com/downloads/win)
-
-1. Otwórz terminal   
-2. Sklonuj repozytorium:
-```sh
-cd wygodny/folder/dla/ciebie
-git clone -b https://github.com/howlingtesters/Nowicjusz-15.10.2025.git
-cd Nowicjusz-15.10.2025
-```
-3. Otwórz Visual Studio Code we wskazanym folderze 
-4. W terminalu w folderze Nowicjusz-15.10.2025 wpisz komendę:
-```sh
-git checkout -b 'yourOwnBranchName'
-```
-5. Lub w lewym panelu wybierz zakładkę source control (`Ctrl + Shift + G`)
-6. Kliknij na gałąź main w lewym dolnym rogu
-7. Wpisz nazwę gałęzi w menu rozwijalnym na górze ekranu
-8. Kliknij **+ Create new branch...**
-9. Upewnij się, że nazwa gałęzi w lewym dolnym rogu odpowiada nowej nazwie
 
 ---
 
