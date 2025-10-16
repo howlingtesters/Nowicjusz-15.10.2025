@@ -24,7 +24,8 @@ Podczas szkolenia będziemy korzystać z **Visual Studio Code (VSC)**, ale może
 > - **PowerShell**
 > - **Commmand Prompt (Default)**
 > - **Git Bash** - wymaga instalacji [git](https://git-scm.com/downloads/win)
-> (Na komputerach firmowych niektóre terminale mogą mieć ograniczone uprawnienia.)
+
+Na komputerach firmowych niektóre terminale mogą mieć ograniczone uprawnienia.
 
 ---
 
