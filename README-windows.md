@@ -63,8 +63,7 @@ git checkout -b 'yourOwnBranchName'
 
 Do zarządzania wersjami Node.js polecam **Node Version Manager (nvm)**:
 
-- [Windows – nvm-windows](https://github.com/coreybutler/nvm-windows)
-Po instalacji może być potrzebne ponownie uruchomienie konsoli
+- [Windows – nvm-windows](https://github.com/coreybutler/nvm-windows) - po instalacji może być potrzebne ponownie uruchomienie konsoli!
 ---
 
 ### Sprawdzenie wersji nvm:
