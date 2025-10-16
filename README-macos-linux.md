@@ -105,15 +105,15 @@ git clone -b https://github.com/howlingtesters/Nowicjusz-15.10.2025.git
 cd Nowicjusz-15.10.2025
 ```
 3. Otwórz Visual Studio Code we wskazanym folderze 
-3. W terminalu w folderze Nowicjusz-15.10.2025 wpisz komendę:
+4. W terminalu w folderze Nowicjusz-15.10.2025 wpisz komendę:
 ```sh
 git checkout -b 'yourOwnBranchName'
 ```
-4. Lub w lewym panelu wybierz zakładkę source control (`command + Shift + G`)
-5. Kliknij na gałąź main w lewym dolnym rogu
-6. Wpisz nazwę gałęzi w menu rozwijalnym na górze ekranu
-7. Kliknij **+ Create new branch...**
-8. Upewnij się, że nazwa gałęzi w lewym dolnym rogu odpowiada nowej nazwie
+5. Lub w lewym panelu wybierz zakładkę source control (`command + Shift + G`)
+6. Kliknij na gałąź main w lewym dolnym rogu
+7. Wpisz nazwę gałęzi w menu rozwijalnym na górze ekranu
+8. Kliknij **+ Create new branch...**
+9. Upewnij się, że nazwa gałęzi w lewym dolnym rogu odpowiada nowej nazwie
 
 ---
 
