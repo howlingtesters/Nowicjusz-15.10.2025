@@ -95,25 +95,17 @@ Przykładowy wynik:
 
 ---
 
-### Wybierz miejsce pracy
-
-Utwórz lub wybierz katalog, w którym będziesz pracować:
-
-```sh
-mkdir /dowolne/miejsce/wygodne/dla/ciebie
-cd /dowolne/miejsce/wygodne/dla/ciebie
-```
-
----
-
 ### Pobierz repozytorium i przejdź na swoją własną gałąź
 
 1. Otwórz terminal   
 2. Sklonuj repozytorium:
 ```sh
+cd wygodny/folder/dla/ciebie
 git clone -b https://github.com/howlingtesters/Nowicjusz-15.10.2025.git
+cd Nowicjusz-15.10.2025
 ```
-3. Wpisz komendę:
+3. Otwórz Visual Studio Code we wskazanym folderze 
+3. W terminalu w folderze Nowicjusz-15.10.2025 wpisz komendę:
 ```sh
 git checkout -b 'yourOwnBranchName'
 ```
