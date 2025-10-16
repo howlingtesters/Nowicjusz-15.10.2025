@@ -12,7 +12,7 @@ Podczas szkolenia będziemy korzystać z **Visual Studio Code (VSC)**, ale może
 
 ---
 
-## 🌿 4. Przełącz się na swoją własną gałąź w kodzie
+## 🌿 2. Przełącz się na swoją własną gałąź w kodzie
 
 ---
 
