@@ -20,9 +20,10 @@ Podczas szkolenia będziemy korzystać z **Visual Studio Code (VSC)**, ale może
 2. Z menu wybierz: **Terminal → New Terminal**  
 3. Na dole ekranu otworzy się terminal  
 4. Kliknij **strzałkę obok znaku “+”**, aby wybrać rodzaj konsoli  
-
 > 💡 Zalecane:  
 > - **PowerShell**
+> - **Commmand Prompt (Default)**
+> - **Git Bash** - wymaga instalacji [git](https://git-scm.com/downloads/win)
 > (Na komputerach firmowych niektóre terminale mogą mieć ograniczone uprawnienia.)
 
 ---
@@ -119,20 +120,25 @@ cd /dowolne/miejsce/wygodne/dla/ciebie
 
 ### Pobierz repozytorium i przejdź na swoją własną gałąź
 
+Jeśli nie masz zainstalowanego git for Windows: [git](https://git-scm.com/downloads/win)
+
 1. Otwórz terminal   
 2. Sklonuj repozytorium:
 ```sh
+cd wygodny/folder/dla/ciebie
 git clone -b https://github.com/howlingtesters/Nowicjusz-15.10.2025.git
+cd Nowicjusz-15.10.2025
 ```
-3. Wpisz komendę:
+3. Otwórz Visual Studio Code we wskazanym folderze 
+4. W terminalu w folderze Nowicjusz-15.10.2025 wpisz komendę:
 ```sh
 git checkout -b 'yourOwnBranchName'
 ```
-4. Lub w lewym panelu wybierz zakładkę source control (`Ctrl + Shift + G`)
-5. Kliknij na gałąź main w lewym dolnym rogu
-6. Wpisz nazwę gałęzi w menu rozwijalnym na górze ekranu
-7. Kliknij **+ Create new branch...**
-8. Upewnij się, że nazwa gałęzi w lewym dolnym rogu odpowiada nowej nazwie
+5. Lub w lewym panelu wybierz zakładkę source control (`Ctrl + Shift + G`)
+6. Kliknij na gałąź main w lewym dolnym rogu
+7. Wpisz nazwę gałęzi w menu rozwijalnym na górze ekranu
+8. Kliknij **+ Create new branch...**
+9. Upewnij się, że nazwa gałęzi w lewym dolnym rogu odpowiada nowej nazwie
 
 ---
 
