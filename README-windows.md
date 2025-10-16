@@ -16,18 +16,18 @@ Podczas szkolenia będziemy korzystać z **Visual Studio Code (VSC)**, ale może
 
 ---
 
-### Otwieranie terminala w Visual Studio Code
+### Otwieranie konsoli w Visual Studio Code
 
 1. Otwórz **Visual Studio Code**  
 2. Z menu wybierz: **Terminal → New Terminal**  
-3. Na dole ekranu otworzy się terminal  
+3. Na dole ekranu otworzy się konsola  
 4. Kliknij **strzałkę obok znaku “+”**, aby wybrać rodzaj konsoli  
 > 💡 Zalecane:  
 > - **PowerShell**
 > - **Commmand Prompt (Default)**
 > - **Git Bash** - wymaga instalacji [git](https://git-scm.com/downloads/win)
 
-Na komputerach firmowych niektóre terminale mogą mieć ograniczone uprawnienia.
+Na komputerach firmowych niektóre konsole mogą mieć ograniczone uprawnienia.
 
 ---
 
@@ -35,7 +35,7 @@ Na komputerach firmowych niektóre terminale mogą mieć ograniczone uprawnienia
 
 Jeśli nie masz zainstalowanego git for Windows: [git](https://git-scm.com/downloads/win)
 
-1. Otwórz terminal   
+1. Otwórz konsolę   
 2. Sklonuj repozytorium:
 ```sh
 cd wygodny/folder/dla/ciebie
@@ -43,7 +43,7 @@ git clone https://github.com/howlingtesters/Nowicjusz-15.10.2025.git
 cd Nowicjusz-15.10.2025
 ```
 3. Otwórz Visual Studio Code we wskazanym folderze 
-4. W terminalu w folderze Nowicjusz-15.10.2025 wpisz komendę:
+4. W konsoli w folderze Nowicjusz-15.10.2025 wpisz komendę:
 ```sh
 git checkout -b 'yourOwnBranchName'
 ```
@@ -64,7 +64,7 @@ git checkout -b 'yourOwnBranchName'
 Do zarządzania wersjami Node.js polecam **Node Version Manager (nvm)**:
 
 - [Windows – nvm-windows](https://github.com/coreybutler/nvm-windows)
-
+Po instalacji może być potrzebne ponownie uruchomienie konsoli
 ---
 
 ### Sprawdzenie wersji nvm:
@@ -152,7 +152,7 @@ Podczas szkolenia będę Was często zachęcał do korzystania z dokumentacji **
 
 ## ✅ 6. Sprawdzenie poprawności działania
 
-### 🔹 Z poziomu terminala
+### 🔹 Z poziomu konsoli
 
 Przetestuj działanie Playwrighta zgodnie z dokumentacją:  
 👉 [https://playwright.dev/docs/intro#running-the-example-test](https://playwright.dev/docs/intro#running-the-example-test)
@@ -166,6 +166,8 @@ Przetestuj działanie Playwrighta zgodnie z dokumentacją:
 3. Obok nazwy testu powinna pojawić się **zielona strzałka ▶️** umożliwiająca jego uruchomienie  
 
 Jeśli nie widzisz strzałki:
+- Spróbuj otworzyć zakładkę Testing z lewego panelu
+- Zainstaluj przeglądarki z konsoli: npx playwright install
 - Otwórz paletę poleceń: `Ctrl + Shift + P`
 - Wpisz: `install`
 - Wybierz z listy: **Test: Install Playwright**
