@@ -142,7 +142,9 @@ Przykładowy wynik:
 
 Podczas szkolenia będę Was często zachęcał do korzystania z dokumentacji **Playwright** (jest naprawdę dobrze napisana!):
 
-👉 [https://playwright.dev/docs/intro](https://playwright.dev/docs/intro)
+👉 [https://playwrightnpm init playwright@latest
+
+.dev/docs/intro](https://playwright.dev/docs/intro)
 
 > ⚠️ Na tym etapie możesz wybrać **domyślne opcje instalacji** zgodnie z poleceniami na stronie.  
 > ⚠️ Nie musisz przeprowadzać aktualizacji, jeśli instalujesz Playwright po raz pierwszy.  
