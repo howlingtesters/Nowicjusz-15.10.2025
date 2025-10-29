@@ -16,18 +16,18 @@ Podczas szkolenia będziemy korzystać z **Visual Studio Code (VSC)**, ale może
 
 ---
 
-### Otwieranie terminala w Visual Studio Code
+### Otwieranie konsoli w Visual Studio Code
 
 1. Otwórz **Visual Studio Code**  
 2. Z menu wybierz: **Terminal → New Terminal**  
-3. Na dole ekranu otworzy się terminal  
-4. Możesz także wykorzystać zewnętrzny terminal systemu
+3. Na dole ekranu otworzy się konsola  
+4. Możesz także wykorzystać zewnętrzną konsolę systemu
 
 ---
 
 ### Pobierz repozytorium i przejdź na swoją własną gałąź
 
-1. Otwórz terminal   
+1. Otwórz konsolę   
 2. Sklonuj repozytorium:
 ```sh
 cd wygodny/folder/dla/ciebie
@@ -35,7 +35,7 @@ git clone -b https://github.com/howlingtesters/Nowicjusz-15.10.2025.git
 cd Nowicjusz-15.10.2025
 ```
 3. Otwórz Visual Studio Code we wskazanym folderze 
-4. W terminalu w folderze Nowicjusz-15.10.2025 wpisz komendę:
+4. W konsoli w folderze Nowicjusz-15.10.2025 wpisz komendę:
 ```sh
 git checkout -b 'yourOwnBranchName'
 ```
@@ -56,7 +56,8 @@ git checkout -b 'yourOwnBranchName'
 Do zarządzania wersjami Node.js polecam **Node Version Manager (nvm)**:
 
 - [Linux, macOS – nvm-sh](https://github.com/nvm-sh/nvm)
-
+- [Brew install](https://formulae.brew.sh/formula/nvm)
+- Po instalacji może być potrzebne ponownie uruchomienie konsoli!
 ---
 
 ### Sprawdzenie wersji nvm:
@@ -137,7 +138,7 @@ Podczas szkolenia będę Was często zachęcał do korzystania z dokumentacji **
 
 ## ✅ 6. Sprawdzenie poprawności działania
 
-### 🔹 Z poziomu terminala
+### 🔹 Z poziomu konsoli
 
 Przetestuj działanie Playwrighta zgodnie z dokumentacją:  
 👉 [https://playwright.dev/docs/intro#running-the-example-test](https://playwright.dev/docs/intro#running-the-example-test)
@@ -151,6 +152,8 @@ Przetestuj działanie Playwrighta zgodnie z dokumentacją:
 3. Obok nazwy testu powinna pojawić się **zielona strzałka ▶️** umożliwiająca jego uruchomienie  
 
 Jeśli nie widzisz strzałki:
+- Spróbuj otworzyć zakładkę Testing z lewego panelu
+- Zainstaluj przeglądarki z konsoli: npx playwright install
 - Otwórz paletę poleceń: `command + Shift + P`
 - Wpisz: `install`
 - Wybierz z listy: **Test: Install Playwright**
